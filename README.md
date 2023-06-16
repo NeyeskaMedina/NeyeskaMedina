@@ -1,7 +1,7 @@
 ### Hi Portafolio 👋
 
 Fork a compañeros de Desafio Latam para completar el último desafío.
-https://github.com/arnaldotorrealba
+git@github.com:NeyeskaMedina/dariourdanetaCV.git
 PENDIENTE
 
 Este es mi portafolio web, donde presento algunos de los proyectos en los que he trabajado. El sitio web está desarrollado utilizando HTML, CSS y Bootstrap para una apariencia y una experiencia de usuario mejoradas.
