@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Iceland', cursive;
+    background-color: rgb(31, 34, 37);
+}
+
+/* SECCION PERSONAL */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 8vh;
+    padding-left: 6vw;
+    padding-top: 10vh;
+    background-image: url(../img/neye.png);
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+    background-size: 130%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+}
+header span{
+    color: rgb(21, 212, 21);
+}
+.container-date p{
+    font-size: 1.2em;
+    margin-bottom: 0;
+    width: 19ch;
+}
+.container-date a, h1{
+    margin-bottom: 0;
+}
+.container-date a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.container-menu div{
+    position: relative;
+    width: 3vw; 
+    height: 0.2vh;
+    background-color: orange;
+    margin-bottom: 5vh;
+}
+.container-menu a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.container-menu a{
+    position: relative;
+    top: -7vh;
+    left: 5vw;
+    font-size: 1.2em;
+}
+.container-menu a:hover{
+    color:  rgb(179, 179, 179);
+    font-size: 1.4em;
+}
+.container-red{
+    display: flex;
+    width: 80%;
+}
+.container-red ul{
+    position: absolute;
+    display: inline-flex;
+    column-gap: 3vh;
+    list-style: none;
+    align-items: center;
+    height: 5vh;
+    width: 45vw;
+}
+.container-red i{
+    color: rgb(133, 135, 133);
+    font-size: 2em;
+}
+.container-red i:hover{
+    color: rgb(176, 181, 176);
+}
+main{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 55%;
+    height: 310vh;
+}
+
+/* SECCION ACERCA DE MI*/
+
+.section-iam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3vh;
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    text-align: right;
+    padding-top: 2vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    margin-bottom: 5vh;
+}
+.section-iam h1{
+padding-bottom: 2vh;
+border-bottom: 1.5px solid  orange;
+}
+.section-iam img{
+    align-self: center; 
+}
+
+.section-iam p{
+    padding: 2vw;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.container-atribute{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    width: 90%;
+    height: 5vh;
+    top: 14vh;
+    justify-content: center;
+    padding: 0;
+}
+.atribute{
+    display: inline-flex;
+    color: orange;
+    border-left: 1.5px solid orange;
+    border-right: 1.5px solid orange;
+    margin: 0.5vh;
+    justify-self: center;
+}
+/* SECCION ESTUDIOS*/
+
+.section-preparation{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    text-align: right;
+    padding-top: 2vh;
+    padding-right: 3vw;
+    padding-left: 2vw; 
+}
+.container-preparation{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+.section-preparation h1{
+    padding-bottom: 2vh;
+    border-bottom: 1.5px solid  orange;
+}
+.container-preparation p{
+    font-size: 1.3em;
+    padding-left: 2vw;
+    padding-bottom: 2vh;
+}
+.container-icons{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    column-gap: 5vw;
+    row-gap: 3vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-icons div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 14vh;
+    background-color: rgb(31, 34, 37);
+    border-radius: 20%;
+}
+.container-icons h3{
+    text-align: center;
+    padding-top: 3vh;
+    width: 8vw;
+    height: 14vh;
+    bottom: 0;
+    position: absolute;
+    transition: 0.7s ease;
+    background-color: rgba(199, 199, 199, 0.574);
+    color: rgb(31, 34, 37);
+    border-radius: 20%;
+   
+}
+/* Hover para iconos*/
+
+.container-icons div:hover .hover-students{
+    opacity: 0;
+    visibility: hidden;
+}
+.container-icons .items i{
+    font-size: 48px;
+}
+.container-students{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100%;
+    height: 20vh;
+    padding-right: 2vh;
+    overflow: hidden;
+    background-color:  rgb(35, 38, 42);;
+    margin: 0;
+    padding: 0;
+}
+.container-students .all{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid orange;
+    padding: 1vw;
+}
+.container-students .container-more{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 4vw;
+    height: 5vh;
+    border-radius: 70%;
+    top: 8vh;
+    left: 2vw;
+    background-color: white;
+   
+}
+.container-students .container-more a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(31, 34, 37);
+}
+.container-students .container-more:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.container-students div h2{
+    color: orange;
+    margin-bottom: 0;
+}
+.container-students p{
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+.container-students div h5{
+    color: #7f673c;
+    margin-bottom: 2vh;
+    font-size: 1em;
+}
+/* SECCION PORTAFOLIO*/
+.section-work{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.container-tarjet-work{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    padding-top: 2vh;
+    padding-right: 3vw;
+    padding-left: 2vw;
+}
+.container-work{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.section-work h1{
+    padding-bottom: 2vh;
+    border-bottom: 1.5px solid  orange;
+}
+.container-portafolio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    justify-content:space-around;
+}
+.container-img-flex{
+    display: flex;
+    position: relative;
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid orange;
+}
+.container-pie{
+    position: absolute;
+    width: 30vw;
+    height: 20vh;
+    bottom: 0;
+    text-align: left;
+    padding: 1vh;
+    background-color:rgba(255, 166, 0, 0.753);
+}
+.container-pie a{
+    color: rgb(27, 27, 209);
+    font-size: 0.8em;
+}
+.container-pie p{
+    font-size: 0.9em;
+}
+.container-pie p, a, h3{
+   margin-bottom:0;
+}
+.section-work .next h2, .section-work .previous h2{
+    font-size: 2.5em;
+    color:  rgba(12, 117, 12, 0.539);
+}
+
+.section-work>a:hover, a:link, a:visited{
+    text-decoration: none;
+}
+
+.section-work .previous h2:hover, .section-work .next h2:hover {
+    color:  rgba(21, 212, 21, 0.539);
+    font-size: 3em;
+}
+footer{
+    display: flex;
+    position:relative;
+    margin-top: 5vh;
+    width: 100%;
+    height: 30vh;
+    padding-top: 2vh;
+}
+footer .container-contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: rgb(31, 34, 37);
+    text-align: center;
+    justify-content: center;
+}
+footer h6{
+    color: rgb(36, 57, 175);
+}
+.container-red2{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+   
+}
+.container-red2 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container-red2 ul i{
+    font-size: 2em;
+    color: rgb(31, 34, 37);
+}
+.container-red2 ul i:hover{
+    color: rgb(121, 121, 122);
+}
+
+@media only screen and (max-width: 1060px) {
+    .container-iam p{
+        text-align: center;
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }   
+    .container-students ul .more-width{
+        width: 12vw;
+        height: 5vh; 
+    }
+}
+@media only screen and (max-width: 650px) {
+    header{
+        position: relative;
+        width: 97.3vw; 
+    }
+    
+    .container-menu{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .container-date{
+        position: relative;
+        top: 3vh;
+        left: 3vw; 
+    }
+    main{
+        width: 97.3vw;
+        height: 340vh;
+        position: relative;
+    }
+    .all ul li{
+        width: 10vw;
+    }
+    .container-icons{
+        width: 80%;
+        left: 11vw;
+        column-gap: 17vw;
+    }
+    .container-icons h3{
+        width: 20vw;
+        height: 14vh;
+    }
+    .container-icons .items i{
+        font-size: 70px;
+    }
+    .container-students div h5{
+        font-size: 1.2em;
+    }
+
+}
+@media only screen and (max-width: 550px) {
+    header{
+        height: 97.3vh;
+        background-position: 40% 50%;
+    }
+    .container-red ul{
+        padding-left: 11vh;
+    }
+    
+    .section-iam img{
+        width: 90%;
+        height: 90%;
+    }
+    .section-iam p{
+        text-align:center;
+        font-size: 1.2em;
+    }
+    .container-img-flex{
+        width: 60vw;
+    }
+    .container-pie{
+        width: 60vw;
+        height: 20vh;
+    }
+    .container-pie h3, p, a{
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .section-iam img{
+    height: 60%;
+    }
+}
+@media only screen and (min-width: 650px){
+    .nvis{
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    footer{
+        visibility: hidden;
+        opacity: 0;  
+    }
+}
