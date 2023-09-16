@@ -1,10 +1,11 @@
-### Hi there 👋
+<div id="header" align="center" font-size="18px">
+  <h1 align="center">Hola👋 soy Neye { </h1>
+</div>
+
+<h3 align="center">Me especializo en desarrollo web profesional en javascript - Fullstack, mantengo una actitud constante de aprendizaje y mi deseo en el ambito es poder hacer grandes contribuciones✨</h3>
 
 <!--
 **NeyeskaMedina/NeyeskaMedina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
