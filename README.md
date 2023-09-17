@@ -5,7 +5,7 @@
   <a title="(+56 9)4409 7355)" href="https://wa.me/56944097355" align="end">
       <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   </a>
-   <a title="Instagram" href="https://instagram.com/neyeskagoidas?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D" align="end">
+   <a title="Instagram" href="https://instagram.com/neyeskagoidas" align="end">
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
  
