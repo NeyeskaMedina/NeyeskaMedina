@@ -16,8 +16,29 @@
 
 <h3 align="center">Me especializo en desarrollo web profesional en javascript - Fullstack, mantengo una actitud constante de aprendizaje y mi deseo en el ambito es poder hacer grandes contribuciones✨</h3>
 
-<h6>⚡⚡ Conocimientos en desarrollo web, libreria y framework usados</h6>
-<h6>......Readme en mantenimiento</h6>
+<h6>⚡⚡ Conocimientos en desarrollo web, libreria, framework usados, entre otros...</h6>
+<div id="contacto" align="center">
+  <a href="">
+      <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
+  </a>
+  <a href="">
+      <img src="https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white">
+  </a>
+  <a href="" >
+      <img src="https://img.shields.io/badge/Chart%20js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
+  </a>
+  <a href="">
+      <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+  </a>
+  <a href="">
+      <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+  </a>
+  <a href="">
+      <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+  </a>
+  
+  
+</div>
 
 <div align="end">
   <a href="https://neyeskamedina.github.io/">&#127760; Web site</a>
