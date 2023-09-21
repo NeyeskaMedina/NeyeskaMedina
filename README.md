@@ -10,7 +10,7 @@
   </a>
  
 </div>
-<div id="header" align="center" font-size="18px">
+<div id="header" align="center" font-size="18px" color="gray">
   <h1 align="center">Hola👋 soy Neye { </h1>
 </div>
 
