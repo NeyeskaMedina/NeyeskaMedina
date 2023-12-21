@@ -50,7 +50,7 @@
 </div>
 
 <div align="end">
-  <a href="https://neyeskamedina.github.io/">&#127760; Web site</a>
+  <a href="https://neye-goidas.netlify.app">&#127760; Web site</a>
 </div>
 <!--  <a title="JavaScript" href="https://wa.me/56944097355" align="end">
       <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
